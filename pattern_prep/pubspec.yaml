@@ -1,0 +1,44 @@
+name: pattern_prep
+description: "PatternPrep — A DSA Pattern Revision App for developers."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
+
+  # Navigation
+  go_router: ^14.8.1
+
+  # Fonts
+  google_fonts: ^6.2.1
+
+  # Icons
+  cupertino_icons: ^1.0.8
+
+  # Syntax highlighting for code templates
+  flutter_highlight: ^0.7.0
+
+  # Misc
+  equatable: ^2.0.5
+
+  # Persistence
+  shared_preferences: ^2.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  build_runner: ^2.4.13
+  riverpod_generator: ^2.6.1
+
+flutter:
+  uses-material-design: true
